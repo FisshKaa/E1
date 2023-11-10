@@ -1,0 +1,85 @@
+.navigation{
+    float: right;
+    height: 20%;
+}
+ 
+.navigation a{
+    height: 100%;;
+    width: 100%;
+    display: table;
+    float: left;
+    padding: 10px 10px;
+    background-color: #101010;
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.blackwihite {
+	color: white;
+    padding: 6% 962px;
+    background-color: #101010
+}
+
+#PRIVET {
+	color: white;
+    background-color: #101010
+}
+
+ .image-center-main {
+ 	display: flex;
+    position: relative;
+    margin-left: 350px;
+    margin-top: 170px;
+ }
+
+ .image-center-main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 100;
+    border-top: 2px solid black;
+    margin-top: 0px;
+    width: 70%;
+ }
+
+ .image-center-about {
+ 	display: flex;
+    position: relative;
+    margin-left: 350px;
+    margin-top: 170px;
+    height: 400px;
+    width: 900px;
+ }
+
+ .image-center-about::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 600;
+    border-top: 2px solid black;
+    margin-top: 0px;
+    width: 50%;
+ }
+
+.text-right {
+  text-align: left;
+}
+
+.text-top {
+  position: absolute;
+  top: -60;
+  left: 0;
+  z-index: 1;
+  padding: 10px;
+}
